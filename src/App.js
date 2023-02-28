@@ -6,7 +6,7 @@ const dummy = [
   {
     id: 1,
     title: "hello world",
-    date: new Date("january 25 2019"),
+    date: new Date("january 25 2020"),
     price: 100,
   },
   {
