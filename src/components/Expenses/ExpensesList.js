@@ -17,6 +17,7 @@ export default function ExpensesList(props) {
         <ExpenseFilter year={year} onSelectedYear={selectedYearHandler} />
         {props.expenses.map((expense) => (
           <ExpenseItem
+            key={expense.id}
             title={expense.title}
             amount={expense.amount}
             date={expense.date}
