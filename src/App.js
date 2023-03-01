@@ -7,25 +7,25 @@ const dummy = [
     id: 1,
     title: "hello world",
     date: new Date("january 25 2020"),
-    price: 100,
+    price: 100.0,
   },
   {
     id: 2,
     title: "crazy 8's",
     date: new Date("january 25 2019"),
-    price: 200,
+    price: 200.3,
   },
   {
     id: 3,
     title: "come down",
     date: new Date("january 25 2019"),
-    price: 132,
+    price: 132.53,
   },
   {
     id: 4,
     title: "pizza on fire",
     date: new Date("january 25 2019"),
-    price: 332,
+    price: 332.54,
   },
 ];
 
